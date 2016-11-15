@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A82DBA1DDAA7E000ADC68D /* wallpaper-iPhone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DB91DDAA7E000ADC68D /* wallpaper-iPhone6.png */; };
+		33A82DC61DDABAC300ADC68D /* Twitter_Icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DC51DDABAC300ADC68D /* Twitter_Icon.PNG */; };
+		33A82DC81DDABAC800ADC68D /* Facebook_Icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DC71DDABAC800ADC68D /* Facebook_Icon.PNG */; };
+		33A82DCA1DDAC29400ADC68D /* gym-512 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DC91DDAC29400ADC68D /* gym-512 2.png */; };
+		33A82DD81DDAD0BF00ADC68D /* button-icon-png-21048.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DD71DDAD0BF00ADC68D /* button-icon-png-21048.png */; };
+		33A82DDA1DDAE12B00ADC68D /* orange-button-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A82DD91DDAE12B00ADC68D /* orange-button-hi.png */; };
 		33AC9AD21DD5BBBA00591B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC9AD11DD5BBBA00591B71 /* AppDelegate.swift */; };
 		33AC9AD41DD5BBBA00591B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC9AD31DD5BBBA00591B71 /* ViewController.swift */; };
 		33AC9AD71DD5BBBA00591B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AC9AD51DD5BBBA00591B71 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33A82DB91DDAA7E000ADC68D /* wallpaper-iPhone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallpaper-iPhone6.png"; sourceTree = "<group>"; };
+		33A82DC51DDABAC300ADC68D /* Twitter_Icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_Icon.PNG; sourceTree = "<group>"; };
+		33A82DC71DDABAC800ADC68D /* Facebook_Icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook_Icon.PNG; sourceTree = "<group>"; };
+		33A82DC91DDAC29400ADC68D /* gym-512 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gym-512 2.png"; sourceTree = "<group>"; };
+		33A82DD71DDAD0BF00ADC68D /* button-icon-png-21048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-png-21048.png"; sourceTree = "<group>"; };
+		33A82DD91DDAE12B00ADC68D /* orange-button-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-button-hi.png"; sourceTree = "<group>"; };
 		33AC9ACE1DD5BBBA00591B71 /* Login-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC9AD11DD5BBBA00591B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33AC9AD31DD5BBBA00591B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +115,7 @@
 				33AC9AD81DD5BBBA00591B71 /* Assets.xcassets */,
 				33AC9ADA1DD5BBBA00591B71 /* LaunchScreen.storyboard */,
 				33AC9ADD1DD5BBBA00591B71 /* Info.plist */,
+				33AC9B031DD5C1E100591B71 /* image */,
 			);
 			path = "Login-Table";
 			sourceTree = "<group>";
@@ -123,6 +136,19 @@
 				33AC9AF31DD5BBBA00591B71 /* Info.plist */,
 			);
 			path = "Login-TableUITests";
+			sourceTree = "<group>";
+		};
+		33AC9B031DD5C1E100591B71 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				33A82DC91DDAC29400ADC68D /* gym-512 2.png */,
+				33A82DB91DDAA7E000ADC68D /* wallpaper-iPhone6.png */,
+				33A82DC51DDABAC300ADC68D /* Twitter_Icon.PNG */,
+				33A82DC71DDABAC800ADC68D /* Facebook_Icon.PNG */,
+				33A82DD71DDAD0BF00ADC68D /* button-icon-png-21048.png */,
+				33A82DD91DDAE12B00ADC68D /* orange-button-hi.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A82DC81DDABAC800ADC68D /* Facebook_Icon.PNG in Resources */,
+				33A82DDA1DDAE12B00ADC68D /* orange-button-hi.png in Resources */,
+				33A82DC61DDABAC300ADC68D /* Twitter_Icon.PNG in Resources */,
+				33A82DCA1DDAC29400ADC68D /* gym-512 2.png in Resources */,
 				33AC9ADC1DD5BBBA00591B71 /* LaunchScreen.storyboard in Resources */,
+				33A82DD81DDAD0BF00ADC68D /* button-icon-png-21048.png in Resources */,
+				33A82DBA1DDAA7E000ADC68D /* wallpaper-iPhone6.png in Resources */,
 				33AC9AD91DD5BBBA00591B71 /* Assets.xcassets in Resources */,
 				33AC9AD71DD5BBBA00591B71 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +516,7 @@
 				33AC9AF81DD5BBBA00591B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33AC9AF91DD5BBBA00591B71 /* Build configuration list for PBXNativeTarget "Login-TableTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				33AC9AFB1DD5BBBA00591B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33AC9AFC1DD5BBBA00591B71 /* Build configuration list for PBXNativeTarget "Login-TableUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				33AC9AFE1DD5BBBA00591B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
